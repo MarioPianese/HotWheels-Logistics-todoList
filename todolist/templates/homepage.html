@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container container__task-list">
+    <div class="row">
+
+        <div class="col-md-12">
+            <!-- Jinja2 -->
+            {% for task in tasks %}
+                <div class="single-task-home">
+                    <h4>{{ task.title }}</h4>
+                    <p>{{ task.description }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
