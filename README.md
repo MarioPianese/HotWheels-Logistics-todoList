@@ -1,21 +1,21 @@
 # HotWheels-Logistics-todoList
-HotWheels-Logistics-todoList è una web app il cui scopo è favorire la coordinazione delle attività svolte dai meccanici nell'azienda fittizia da noi denominata "HotWheels" .Il progetto è stato sviluppato per l'esame di Tecnologie Web dell'Università degli Studi di Napoli "Parthenope".
-## Componenti utilizzati
+HotWheels-Logistics-todoList is a web app whose purpose is to facilitate the coordination of the activities carried out by mechanics in the fictitious company we call "HotWheels". The project was developed for the examination of Web Technologies of the University of Naples "Parthenope".
+## Components used
 - HTML5 
 - CSS3
 - JavaScript
 - Python3 (flask)
 - SQLite
-## Installazione componenti progetto
-Dopo aver scaricato la cartella da github, aprire il terminale nella cartella e digitare il seguente comando:
+## How to install the components
+After downloading the folder from github, open the terminal in the folder and type the following command:
 ```
 > my_venv\Scripts\activate
 ```
-Dopodiché digitare il comando:
+Then type the command:
 ```
 > python -m flask run
 ```
-Dovrebbe comparire una schermata di questo tipo:
+A screen like this should appear:
 ```
  * Serving Flask app 'run.py' (lazy loading)
  * Environment: development
@@ -25,4 +25,4 @@ Dovrebbe comparire una schermata di questo tipo:
  * Debugger PIN: ***-***-***
  * Running on http://***.*.*.*:5000/ (Press CTRL+C to quit)
 ```
-Tenendo premuto il tasto CTRL e cliccando sul link, si verrà reindirizzati alla pagina web corrispondente alla web app.
+By holding down the CTRL key and clicking on the link, you will be redirected to the web page corresponding to the web app.
